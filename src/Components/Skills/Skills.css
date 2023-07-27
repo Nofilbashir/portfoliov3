@@ -1,0 +1,61 @@
+.skills{
+    display: flex;
+    gap: 5rem;
+    height: 50vh;
+}
+
+.skills_left{
+    width: 50%;
+    height: 100%;
+}
+.skills_right{
+    width: 50%;
+}
+
+.sl_top{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.sl_bottom{
+    position: relative;
+    height: 100%;
+}
+
+.sl_bottom>:nth-child(1){
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    color: red;
+}
+
+.sl_bottom>:nth-child(2){
+    position: absolute;
+    top: 0rem;
+    right: 2rem;
+    color: yellow;
+}
+
+.sl_bottom>:nth-child(3){
+    position: absolute;
+    bottom: 1rem;
+    right: 0rem;
+    color: blue;
+}
+
+.sl_bottom>:nth-child(4){
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    color: indianred;
+}
+
+.sl_bottom>:nth-child(5){
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    color: green;
+}
+
+

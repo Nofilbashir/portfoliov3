@@ -1,0 +1,37 @@
+.Banner{
+    display: flex;
+    gap: 5rem;
+    padding-top: 2rem;
+    
+}
+
+.Banner_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+
+.Banner_right{
+    width: 50%;
+    display: flex;flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Banner_right>div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--grey);
+    padding: 10px;
+
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary_color);
+}

@@ -1,0 +1,23 @@
+.Header{
+    padding: 0rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.header_left{
+    width: 5rem;
+}
+
+
+.header_right{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.header_left>img{
+    display: block;
+    width: 100%;
+}

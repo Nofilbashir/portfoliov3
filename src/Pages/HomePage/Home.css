@@ -1,0 +1,6 @@
+.Home{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
